@@ -1,0 +1,84 @@
+.hero-subscribe-layout #hero,
+.creative-layout #hero,
+.event-layout #hero {
+	background: url(../images/fuehrungskurs/Fotolia_101916333_Subscription_Monthly_XXL.jpg) center center no-repeat;
+}
+
+.hero-subscribe-wrapper form .input-group .btn-subscribe {
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+    width: 270px;
+    height: 70px;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    border-radius: 0 8px 8px 0;
+    background-color: #fcd025;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.cta-default {
+    background: #fcd025;
+        background-color: rgb(252, 208, 37);
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+}
+
+
+
+#footer-subscribe .btn-subscribe {
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+    width: 170px;
+    height: 50px;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    border-radius: 0 8px 8px 0;
+    background-color: #fcd025;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.contact-form .submit-btn {
+    min-width: 170px;
+    height: 50px;
+    background: #fcd025;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+ul.pricing .price:hover {
+    border-color: #fcd025;
+}
+
+.price:hover .price-amount {
+    border-color: #fcd025;
+    background: #fcd025;
+}
+
+.price:hover .price-button {
+    background: #fcd025;
+}
+
+.price-amount {
+    white-space: nowrap;
+}
+
+.nopointer {
+    cursor: not-allowed;
+}
+
