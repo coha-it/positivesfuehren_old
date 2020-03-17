@@ -82,3 +82,10 @@ ul.pricing .price:hover {
     cursor: not-allowed;
 }
 
+/* Custom Fixes 2020 */
+.logo img {
+    width: fit-content;
+    width: max-content;
+    width: 100%;
+}
+
