@@ -13,7 +13,7 @@
     -webkit-border-radius: 0 8px 8px 0;
     -moz-border-radius: 0 8px 8px 0;
     border-radius: 0 8px 8px 0;
-    background-color: #fcd025;
+    background-color: #efd84c;
     color: #fff;
     text-transform: uppercase;
     font-size: 24px;
@@ -22,8 +22,8 @@
 }
 
 .cta-default {
-    background: #fcd025;
-        background-color: rgb(252, 208, 37);
+    background: #efd84c;
+        background-color: #efd84c;
         background-image: none;
         background-repeat: repeat;
         background-attachment: scroll;
@@ -45,7 +45,7 @@
     -webkit-border-radius: 0 8px 8px 0;
     -moz-border-radius: 0 8px 8px 0;
     border-radius: 0 8px 8px 0;
-    background-color: #fcd025;
+    background-color: #efd84c;
     color: #fff;
     text-transform: uppercase;
     font-size: 16px;
@@ -56,22 +56,22 @@
 .contact-form .submit-btn {
     min-width: 170px;
     height: 50px;
-    background: #fcd025;
+    background: #efd84c;
     text-transform: uppercase;
     font-size: 20px;
 }
 
 ul.pricing .price:hover {
-    border-color: #fcd025;
+    border-color: #efd84c;
 }
 
 .price:hover .price-amount {
-    border-color: #fcd025;
-    background: #fcd025;
+    border-color: #efd84c;
+    background: #efd84c;
 }
 
 .price:hover .price-button {
-    background: #fcd025;
+    background: #efd84c;
 }
 
 .price-amount {
