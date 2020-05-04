@@ -1,0 +1,29 @@
+body,
+p,
+h1, h2, h3, h4, h5 
+{
+  font-family: "Lato", "ff-tisa-web-pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.main_logo_c {
+  min-width: 125px;
+  max-width: 200px;
+  width: 20vw;
+}
+
+@media (max-width: 738px) {
+  #hero .container {
+      height: inherit;
+  }
+}
+
+.hero-content h1 {
+  text-shadow: 0 2px 30px rgba(125,116,107,.75);
+}
+
+
+.hero-subscribe-layout #hero,
+.creative-layout #hero,
+.event-layout #hero {
+  background: url(../images/positives-fuehren.jpg) center center no-repeat;
+}
