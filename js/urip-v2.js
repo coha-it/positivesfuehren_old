@@ -146,6 +146,7 @@ $(document).ready(function(){
 	// Remove class of the clone header
 	// so we can distinguish between the original and the clone header.
 	$('.header-clone').removeClass('the-origin-header');
+	$('.header-clone').find('.main_logo_c img').attr('src', 'images/corporate-happiness-logo-hwhite-2-zeiler.svg')
 
 
 	/* ==========================

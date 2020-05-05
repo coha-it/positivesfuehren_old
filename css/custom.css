@@ -11,6 +11,14 @@ h1, h2, h3, h4, h5
   width: 20vw;
 }
 
+.header-clone .logo img {
+  top: -5px;
+  bottom: 0;
+  width: auto;
+  margin: auto;
+  height: 90%;
+}
+
 @media (max-width: 738px) {
   #hero .container {
       height: inherit;
@@ -26,4 +34,21 @@ h1, h2, h3, h4, h5
 .creative-layout #hero,
 .event-layout #hero {
   background: url(../images/positives-fuehren.jpg) center center no-repeat;
+}
+
+
+.price .price-feature,
+.best-value-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  flex-flow: column;
+}
+
+.price .price-feature {
+  min-height: 250px;
+}
+.best-value-label {
+  min-height: 50px;
 }
