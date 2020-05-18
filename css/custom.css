@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5
 .creative-layout #hero,
 .event-layout #hero {
   background: url(../images/positives-fuehren.jpg) center center no-repeat;
+  background: url(https://corporatehappiness.s3.eu-central-1.amazonaws.com/positives-fuehren-de/images/positives-fuehren-de-img-resize.jpg) center center no-repeat;  
 }
 
 
