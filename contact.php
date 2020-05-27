@@ -16,15 +16,15 @@ include('./phpmailer/src/PHPMailer.php');
 include('./phpmailer/src/POP3.php');
 include('./phpmailer/src/SMTP.php');
 
-$pass = base64_decode('VHdSczgxKzM=');
+$pass = base64_decode('PASS HERE');
 
 $mail = new PHPMailer();
 //Server settings
-$mail->SMTPDebug = 0;                                 // 0 = disabled, 2 = Enable verbose debug output
+$mail->SMTPDebug = 2;                                 // 0 = disabled, 2 = Enable verbose debug output
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.corporate-happiness.de';  // Specify main and backup SMTP servers
+$mail->Host = 'smtp.office365.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'heim@corporate-happiness.de';                 // SMTP username
+$mail->Username = 'it@corporate-happiness.de';                 // SMTP username
 
 $mail->Password = $pass;                           // SMTP password
 
@@ -39,7 +39,7 @@ $mail->setFrom($_REQUEST['email']);
 $mail->addReplyTo($_REQUEST['email']);
 
 $subject = 'Kontaktformular Online-Kurs '.$_REQUEST['subject']; // Subject of your email
-$to = 'heim@corporate-happiness.de';  //Recipient's or Your E-mail
+$to = 'it@corporate-happiness.de';  //Recipient's or Your E-mail
 
 $message = '';
 $message .= 'First Name: ' . $_REQUEST['fname'] . "<br>";
